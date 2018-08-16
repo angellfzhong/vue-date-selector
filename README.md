@@ -3,6 +3,7 @@
 
 #### 效果图如下:
 <img width="375" src="https://github.com/angellfzhong/vue-date-selector/blob/master/img/1.png"/>
+
 #### 城市选择器 CitySelector 组件使用了city.json获取全部城市 按照拼音的首字母给城市分类
 #### 创建键名为A-Z的对象数组 并渲染城市列表
 
