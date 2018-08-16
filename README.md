@@ -5,6 +5,7 @@
 <img width="375" src="https://github.com/angellfzhong/vue-date-selector/blob/master/img/1.png"/>
 #### 城市选择器 CitySelector 组件使用了city.json获取全部城市 按照拼音的首字母给城市分类
 #### 创建键名为A-Z的对象数组 并渲染城市列表
+
 ```
 buildCity(cityNamesFilter) {
       for (let i = 0; i < this.citylist.length; i++) {
@@ -13,8 +14,10 @@ buildCity(cityNamesFilter) {
       }
     }
 ```
+
 <img width="375" src="https://github.com/angellfzhong/vue-date-selector/blob/master/img/2.png"/>
 #### 根据搜索框输入内容动态渲染搜索结果，将搜索字体高亮显示
+
 ```
 showsearchReasult(n) {
       let reg = new RegExp(this.inputcity, "g");
