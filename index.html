@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>date-selector</title>
+
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+  </style>
+  <script>
+    function changeRem() {
+      var deviceWidth = document.documentElement.clientWidth;
+      if (deviceWidth > 680) {
+        deviceWidth = 680;
+      }
+      document.documentElement.style.fontSize = deviceWidth / 6.8 + "px";
+    }
+    changeRem();
+    window.onresize = changeRem;</script>
+</head>
+
+<body>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+</body>
+
+</html>
