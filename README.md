@@ -13,7 +13,7 @@ buildCity(cityNamesFilter) {
       }
     }
 ```
-![img](https://github.com/angellfzhong/vue-date-selector/blob/master/img/2.png)
+<img width="375" src="https://github.com/angellfzhong/ng-onlineshop/blob/master/img/1.png"/>
 #### 根据搜索框输入内容动态渲染搜索结果，将搜索字体高亮显示
 ```
 showsearchReasult(n) {
