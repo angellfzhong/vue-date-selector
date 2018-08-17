@@ -37,8 +37,26 @@ showsearchReasult(n) {
 #### DateSelector日期选择器可选择开始时期和结束日期
 #### 默认选中日期为今日，可根据选中日期动态计算开始时期和离店日期
 #### 今日之前的日期无法选中
+```
+let today = new Date(
+        new Date().getFullYear(),
+        new Date().getMonth(),
+        new Date().getDate()
+      );
+let choose = new Date(this.nowDate.year, this.nowDate.month, date.day);
+      if (choose - today < 0) {
+        return;
+      } else {
+        this.$emit("click-event", date);
+      }
+```
 ![image](https://github.com/angellfzhong/vue-date-selector/blob/master/img/44.png)
 
-#### 选择后的页面  自动计算入住天数
+#### 选择后的的页面  自动计算入住天数
+```
+let begin = this.nowdate.getTime();
+      let end = this.enddate.getTime();
+      return (end - begin) / 86400000;
+```
 ![image](https://github.com/angellfzhong/vue-date-selector/blob/master/img/55.png)
 
