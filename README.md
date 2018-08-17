@@ -16,7 +16,7 @@ buildCity(cityNamesFilter) {
       }
     }
 ```
-#### 左侧字母导航
+#### 右侧字母导航
 ![image](https://github.com/angellfzhong/vue-date-selector/blob/master/img/22.png)
 
 #### 根据搜索框输入内容动态渲染搜索结果，将搜索字体高亮显示
