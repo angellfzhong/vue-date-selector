@@ -35,8 +35,8 @@ showsearchReasult(n) {
 ![image](https://github.com/angellfzhong/vue-date-selector/blob/master/img/33.png)
 
 #### DateSelector日期选择器可选择开始时期和结束日期
-#### 默认选中日期为今日，可根据选中日期动态计算开始时期和离店日期
-#### 今日之前的日期无法选中
+#### Calendar为日历组件 默认选中日期为今日，可根据选中日期动态计算开始时期和离店日期
+#### 今日之前的日期无法选中,选择后发送时间到父组件
 ```
 let today = new Date(
         new Date().getFullYear(),
@@ -54,9 +54,11 @@ let choose = new Date(this.nowDate.year, this.nowDate.month, date.day);
 
 #### 选择后的的页面  自动计算入住天数
 ```
-let begin = this.nowdate.getTime();
+days() {
+      let begin = this.nowdate.getTime();
       let end = this.enddate.getTime();
       return (end - begin) / 86400000;
+    }
 ```
 ![image](https://github.com/angellfzhong/vue-date-selector/blob/master/img/55.png)
 
