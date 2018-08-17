@@ -1,7 +1,7 @@
 #### 基于vue 2.x的日期选择器组件和城市选择器组件
 #### 运行环境vue-cli2
 
-#### 效果图如下:
+效果图如下:
 
 ![image](https://github.com/angellfzhong/vue-date-selector/blob/master/img/11.png)
 
