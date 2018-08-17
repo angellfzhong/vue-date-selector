@@ -2,7 +2,8 @@
 #### 运行环境vue-cli2
 
 #### 效果图如下:
-<img width="375" src="https://github.com/angellfzhong/vue-date-selector/blob/master/img/1.png"/>
+
+![image](https://github.com/angellfzhong/vue-date-selector/blob/master/img/11.png)
 
 #### 城市选择器 CitySelector 组件使用了city.json获取全部城市 按照拼音的首字母给城市分类
 #### 创建键名为A-Z的对象数组 并渲染城市列表
@@ -16,7 +17,7 @@ buildCity(cityNamesFilter) {
     }
 ```
 
-<img width="375" src="https://github.com/angellfzhong/vue-date-selector/blob/master/img/2.png"/>
+![image](https://github.com/angellfzhong/vue-date-selector/blob/master/img/22.png)
 
 #### 根据搜索框输入内容动态渲染搜索结果，将搜索字体高亮显示
 
@@ -31,13 +32,13 @@ showsearchReasult(n) {
       return newtxt;
     },
 ```
-<img width="375" src="https://github.com/angellfzhong/vue-date-selector/blob/master/img/3.png"/>
+![image](https://github.com/angellfzhong/vue-date-selector/blob/master/img/33.png)
 
 #### DateSelector日期选择器可选择开始时期和结束日期
 #### 默认选中日期为今日，可根据选中日期动态计算开始时期和离店日期
 #### 今日之前的日期无法选中
-<img width="375" src="https://github.com/angellfzhong/vue-date-selector/blob/master/img/4.png"/>
+![image](https://github.com/angellfzhong/vue-date-selector/blob/master/img/44.png)
 
 #### 选择后的页面
-<img width="375" src="https://github.com/angellfzhong/vue-date-selector/blob/master/img/5.png"/>
+![image](https://github.com/angellfzhong/vue-date-selector/blob/master/img/55.png)
 
