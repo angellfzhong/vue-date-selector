@@ -16,7 +16,7 @@ buildCity(cityNamesFilter) {
       }
     }
 ```
-
+#### 左侧字母导航
 ![image](https://github.com/angellfzhong/vue-date-selector/blob/master/img/22.png)
 
 #### 根据搜索框输入内容动态渲染搜索结果，将搜索字体高亮显示
@@ -39,6 +39,6 @@ showsearchReasult(n) {
 #### 今日之前的日期无法选中
 ![image](https://github.com/angellfzhong/vue-date-selector/blob/master/img/44.png)
 
-#### 选择后的页面
+#### 选择后的页面  自动计算入住天数
 ![image](https://github.com/angellfzhong/vue-date-selector/blob/master/img/55.png)
 
